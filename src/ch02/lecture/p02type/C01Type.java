@@ -20,7 +20,7 @@ public class C01Type {
 		int a;
 		a = 222;
 //		a = "222"; //xxx
-	}
+	}                 
 }
 
 
