@@ -2,7 +2,7 @@ package ch02.lecture.p04scanner;
 
 import java.util.Scanner;
 
-public class C03scanner {
+public class C03scanner_1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		

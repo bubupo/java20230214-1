@@ -2,7 +2,7 @@ package ch02.lecture.p04scanner;
 
 import java.util.Scanner;
 
-public class C04scanner {
+public class C04scannerr {
 	public static void main(String[] args) {
 		String input = "3 33 555 50";
 		Scanner scanner = new Scanner(input);
