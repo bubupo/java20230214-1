@@ -2,6 +2,8 @@ package ch04.exercise;
 
 public class Ch04DoWhileExercise {
 	public static void main(String[] args) {
+		
+		
 		int score;
 		int score2;
 		
