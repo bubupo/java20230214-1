@@ -4,8 +4,8 @@ public class C01Final {
 	
 		
 		//final 값을 한번만 할당할 수 있따.
-		int a = 3;
-		a = 5;
+//		int a = 3;
+//		a = 5;
 		
 		final int b = 5;
 		//b = 10;///xx
