@@ -1,25 +1,30 @@
 package exercise13;
 
 public class Member {
-	private String name;
-	private String id;
+	public String name;
+	String id;
 	private String pw;
 	private int age;
 	private boolean married;
+	
+	public Member (String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
 	
 	public int getAge() {
 		return age;
 	}
 
-	public String getName() {
+	String getName() {
 		return name;
 	}
 
-	public void setName(String name) {
+	void setName(String name) {
 		this.name = name;
 	}
 
-	public String getId() {
+	String getId() {
 		return id;
 	}
 
@@ -31,7 +36,7 @@ public class Member {
 		this.married = married;
 	}
 
-	public void setId(String id) {
+	void setId(String id) {
 		this.id = id;
 	}
 
@@ -46,4 +51,10 @@ public class Member {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+
+	
+	
+	
+
 }

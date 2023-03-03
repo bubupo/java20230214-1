@@ -5,6 +5,7 @@ public class MyClass03 {
 	private int age;
 	private String address;
 	private boolean married;
+	private String num1;
 	
 	public void setMarried(boolean married) {
 		this.married = married;
@@ -46,5 +47,6 @@ public class MyClass03 {
 	public String getAddress() {
 		//읽기
 		return this.address;
+		
 	}
 }
