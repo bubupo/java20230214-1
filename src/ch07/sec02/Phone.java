@@ -16,7 +16,7 @@ public class Phone {
 	public void receiveVoice(String message) {
 		System.out.println("상대방:"+message);
 	}
-	public void hangUp(String message) {
+	public void hangUp() {
 		System.out.println("전화를 끊습니다.");
 	}
 }

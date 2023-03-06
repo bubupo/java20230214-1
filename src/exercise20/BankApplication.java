@@ -1,8 +1,8 @@
 package exercise20;
 
-import java.util.*;
 
-import ch06.exercise.exam20.*;
+
+import java.util.*;
 
 public class BankApplication {
 	public static void main(String[] args) {
@@ -18,6 +18,7 @@ public class BankApplication {
 			System.out.print("선택>");
 			
 			int menu = scanner.nextInt();
+			
 			
 			switch (menu) {
 			case 1 -> {
