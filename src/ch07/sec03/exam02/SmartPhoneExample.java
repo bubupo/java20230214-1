@@ -3,6 +3,10 @@ package ch07.sec03.exam02;
 public class SmartPhoneExample {
 	public static void main(String[] args) {
 		//smartphone 객체 생성
-		Smart
+		SmartPhone myPhone = new SmartPhone("갤럭시","은색");
+		
+		//phone으로부터 상속 받는 필드 읽기
+		System.out.println("모델" + myPhone.model);
+		System.out.println("모델" + myPhone.color);
 	}
 }
