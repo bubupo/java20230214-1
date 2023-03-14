@@ -14,8 +14,12 @@ private static int[] scores = {10, 50, 3};
 	}
 	
 	public static void main(String[] args) {
-		int max1 = maxOrMin((x, y) -> Math.max(x, y));
+		//int max1 = maxOrMin((x, y) -> Math.max(x, y));
+		int max1 = maxOrMin((x,y) :: Math.max(x, y));
 		System.out.println("최대값: " + max1);
+		
+		int max4 = maxOrMin(Math::min);
+		System.out.println("최대값: " + max4);
 		
 		int max2 = maxOrMin((x, y) -> ((x > y) ? x : y));
 		System.out.println("최대값: " + max2);

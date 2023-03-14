@@ -1,12 +1,14 @@
 package ch05.exersise;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class C09Example {
 	public static void main(String[] args) {
 		boolean run = true;
 		Scanner scanner = new Scanner(System.in);
-		int[] scores = null;
+	//	int[] scores = null;
+		//
+		List<Integer> scores = new ArrayList<>();
 		
 		while (run) {
 			System.out.println("----------------------------------------------");
@@ -23,7 +25,7 @@ public class C09Example {
 				System.out.print("학생수>");
 				int students = scanner.nextInt();
 				
-				scores = new int[students];
+				scores = new List<>[students];
 			}
 			case 2 -> {
 				// 점수 입력
