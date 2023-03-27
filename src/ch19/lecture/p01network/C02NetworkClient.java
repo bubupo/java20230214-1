@@ -6,7 +6,7 @@ import java.net.*;
 public class C02NetworkClient {
 		public static void main(String[] args) {
 			//ip 주서
-			String ip = "172.30.1.25";
+			String ip = "172.30.1.26";
 			//port번호
 			int port = 50500;
 			try(
